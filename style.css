@@ -1,48 +1,97 @@
 :root {
-  --cor-fundo: #0f172a;
-  --cor-card: #1e293b;
+  --cor-card: rgba(15, 23, 42, 0.80);
   --cor-texto: #e2e8f0;
   --cor-destaque: #38bdf8;
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: Arial, sans-serif;
-  background: var(--cor-fundo);
+  min-height: 100vh;
   color: var(--cor-texto);
   line-height: 1.6;
-}
-body {
-    margin: 0;
-    min-height: 100vh;
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("img/julien-riedel-NI_5m-K9XZY-unsplash.jpg");
 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  /* Imagem de fundo */
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),
+    url("img/julien-riedel-NI_5m-K9XZY-unsplash.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
+/* CABEÇALHO */
+
 header {
   text-align: center;
   padding: 3rem 1rem;
 }
 
-header h1 { color: var(--cor-destaque); font-size: 2.5rem; }
+header h1 {
+  color: var(--cor-destaque);
+  font-size: 2.5rem;
+}
 
-nav { margin-top: 1rem; }
-nav a { margin: 0 0.75rem; }
+nav {
+  margin-top: 1rem;
+}
 
-a { color: var(--cor-destaque); text-decoration: none; }
-a:hover { text-decoration: underline; }
+nav a {
+  margin: 0 0.75rem;
+}
 
-main { max-width: 800px; margin: 0 auto; padding: 0 1rem; }
-section { margin-bottom: 2.5rem; }
-h2 { margin-bottom: 0.75rem; border-bottom: 2px solid var(--cor-destaque); display: inline-block; }
+a {
+  color: var(--cor-destaque);
+  text-decoration: none;
+}
 
-.cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
-.card { background: var(--cor-card); padding: 1rem; border-radius: 8px; }
+a:hover {
+  text-decoration: underline;
+}
 
-footer { text-align: center; padding: 2rem 1rem; opacity: 0.7; }
+/* CONTEÚDO */
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  margin-bottom: 0.75rem;
+  border-bottom: 2px solid var(--cor-destaque);
+  display: inline-block;
+}
+
+/* CARDS */
+
+.cards {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.card {
+  background: var(--cor-card);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* RODAPÉ */
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  opacity: 0.7;
+}
