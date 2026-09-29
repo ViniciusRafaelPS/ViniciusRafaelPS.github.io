@@ -19,8 +19,7 @@ body {
   /* Imagem de fundo */
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),
-    url("img/julien-riedel-NI_5m-K9XZY-unsplash.jpg");
-
+  url("./img/julien-riedel-NI_5m-K9XZY-unsplash.jpg")
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
