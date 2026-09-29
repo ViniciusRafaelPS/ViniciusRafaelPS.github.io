@@ -1,4 +1,4 @@
-![Fiorde na Noruega](img/julien-riedel-NI_5m-K9XZY-unsplash.jpg.jpg)
+![Fiorde na Noruega](img/julien-riedel-NI_5m-K9XZY-unsplash.jpg)
 # Portfólio | Vinicius Rafael
 
 Site pessoal de um estudante do 1º semestre de Análise e Desenvolvimento de Sistemas (ADS).
