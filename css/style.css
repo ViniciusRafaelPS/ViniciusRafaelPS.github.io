@@ -23,7 +23,7 @@ body {
   line-height: 1.6;
 
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+    linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)),
     url("../img/julien-riedel-NI_5m-K9XZY-unsplash.jpg");
   background-size: cover;
   background-position: center;
